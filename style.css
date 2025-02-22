@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body {
+background-color: #000000;
+font-family: "Inter", serif;
+}
+.container {
+max-width: 452px;
+background: #ffffff;
+justify-content: center;
+margin: 20px auto;
+height: auto;
+padding: 40px;
+}
+.box {
+width: 100%;
+margin-top: 30px;
+}
+.box.active {
+border: 3px solid #ff6b82;
+}
+h3.main_title {
+font-family: Inter;
+font-weight: 600;
+font-size: 20px;
+line-height: 24.2px;
+letter-spacing: 0;
+color: #FF6B82;
+position: relative;
+letter-spacing: 0.7px;
+text-align: center;
+}
+h3.main_title:before {
+content: '';
+width: 109px;
+height: 1px;
+background: #c8c8c8;
+position: absolute;
+top: 9px;
+left: -1px;
+}
+h3.main_title:after {
+content: '';
+width: 109px;
+height: 1px;
+background: #c8c8c8;
+position: absolute;
+top: 10px;
+right: -1px;
+}
+.cart_box {
+border: 1px solid rgba(200, 200, 200, 1);
+padding: 25px;
+}
+.head {
+display: flex;
+justify-content: space-between;
+}
+.left_side {
+display: flex;
+align-items: baseline;
+gap: 5px;
+}
+input{
+accent-color: rgba(255, 107, 130, 1);
+}
+input[type='checkbox']{
+accent-color: rgba(255, 107, 130, 1);
+}
+.left_side p,
+.right_side p {
+font-weight: 600;
+}
+.left_side p span {
+background: #FF6B82;
+font-size: 15px;
+padding: 4px 10px;
+color: #fff;
+font-weight: 300;
+font-size: 13px;
+line-height: 14.52px;
+text-align: center;
+margin-left: 16px;
+border-radius: 3px;
+letter-spacing: .5px;
+}
+.right_side span {
+text-decoration: line-through;
+font-family: Inter;
+font-weight: 400;
+font-size: 12px;
+line-height: 12.1px;
+letter-spacing: 0px;
+text-decoration: line-through;
+color: hsl(0deg 0% 0% / 44%);
+}
+.left_side span {
+font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+line-height: 14.52px;
+letter-spacing: .5px;
+margin-top: 4px;
+display: inline-block;
+}
+.p_detail {
+display: flex;
+justify-content: space-between;
+width: 50%;
+gap: 10px;
+}
+.p_detail label {
+display: block;
+font-size: 13px;
+margin-bottom: 5px;
+}
+.product_details {
+width: 50%;
+}
+.product_details select {
+width: 100%;
+border: 1px solid rgba(217, 217, 217, 1);
+height: 25.31px;
+margin-bottom: 8px;
+border-radius: 1.82px;
+outline: none;
+appearance: none;
+padding: 5px;
+}
+.select_outer:after {
+content: "\f0d7";
+position: absolute;
+top: 4px;
+z-index: 1;
+font-family: "Font Awesome 5 Pro";
+font-weight: 800;
+right: 5px;
+}
+.select_outer {
+position: relative;
+}
+.body {
+padding: 20px 0 0 20px;
+}
+.box.most_popular {
+position: relative;
+}
+.plan_type {
+background: #ff6b82;
+color: #ffffff;
+display: inline-block;
+position: absolute;
+right: 6px;
+font-family: Inter;
+font-weight: 500;
+font-size: 12px;
+line-height: 14.52px;
+letter-spacing: 0;
+text-align: center;
+padding: 5px 10px;
+border-radius: 0 0 5px 5px;
+top: -10px;
+}
+.plan_type:before {
+content: "";
+position: absolute;
+width: 10px;
+height: 10px;
+left: -10px;
+top: 0px;
+background: rgba(215, 68, 91, 1);
+clip-path: polygon(100% 0, 32% 100%, 100% 99%);
+}
+.plan_type:after {
+content: "";
+position: absolute;
+width: 10px;
+height: 10px;
+right: -10px;
+top: 0px;
+background: rgba(215, 68, 91, 1);
+clip-path: polygon(0 0, 0% 100%, 65% 100%);
+}
+.hidden-content{
+display: none;
+}
+.bottom_text {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.delivery_text a {
+font-family: Inter;
+font-weight: 500;
+font-size: 14px;
+line-height: 16.94px;
+letter-spacing: 0px;
+color: rgba(255, 107, 130, 1);
+text-decoration: none;
+}
+.add_cart_btn a {
+display: block;
+background: rgba(255, 107, 130, 1);
+padding: 12px;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+color: #fff;
+font-size: 12px;
+}
+.add_cart_btn a i {
+font-weight: 300;
+font-size: 13px;
+margin-right: 5px;
+}
+.right_side.total_amount p {
+font-weight: 400;
+font-size: 15px;
+}
+.spons{
+font-family: Inter;
+font-weight: 400;
+font-style: italic;
+font-size: 12px;
+line-height: 14.52px;
+letter-spacing: 0px;
+color: #0000004a;
+text-align: right;
+margin-top: 5px;
+}
+
+@media screen and (min-device-width:320px) and (max-device-width:450px) { 
+    h3.main_title:after,h3.main_title:before {
+        width: 70px;
+      
+    }
+}
