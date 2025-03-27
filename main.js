@@ -1,6 +1,6 @@
 
 function toggleBox(selectedIndex) {
-    let boxes = document.querySelectorAll('.box');
+    let boxes = document.querySelectorAll ('.box');
     let contents = document.querySelectorAll('.hidden-content');
     let radios = document.querySelectorAll('input[type="radio"]');
     let priceDisplay = document.getElementById('price'); // Element to display price

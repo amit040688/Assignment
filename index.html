@@ -1,271 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Assignment</title>
-<link
-rel="stylesheet"
-href="https://site-assets.fontawesome.com/releases/v5.15.4/css/all.css"
->
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="container">
-<h3 class="main_title">YAY! It’s BOGO</h3>
-<div class="box " onclick="toggleBox(1)" data-price="10.00 USD">
-    <div class="cart_box">
-    
-        <div class="head">
-            <div class="left_side">
-                  <input type="radio" id="html" name="fav_language" value="HTML" class="radio_btn">
-                <div> 
-                <p>1 Unit<span>10% Off</span></p>
-                <span>Standard Price</span>
-            </div>
-            </div>
-            <div class="right_side">
-                <p>$10.00 USD</p>
-                <span>$24.00 USD </span>
-            </div>
-        </div>
-        <div class="body hidden-content">
-            <div >
-            <div class="p_detail">
-            <div class="size product_details">
-                
-                <label for="size">Size</label>
-                <div class="select_outer">
-                    <select name="size" id="size">
-                        <option value="volvo">S</option>
-                        <option value="saab">
-                            M
-                        </option>
-                        <option value="opel">L</option>
-                        </select>
+    <div class="container">
+     <form>
+        <h3 class="main_title">YAY! It’s BOGO</h3>
+        <div class="box " onclick="toggleBox(1)" data-price="10.00 USD">
+            <div class="cart_box">
+
+                <div class="head radio">
+                    <div class="left_side box-1">
+                          <input type="radio" id="html" name="fav_language" value="HTML" class="radio_btn">
+                        <span class="check-mark"></span>
+                        <div class="category
+                        ">
+                            <p>1 Unit<span>10% Off</span></p>
+                            <span>Standard Price</span>
+                        </div>
                     </div>
-            </div>
-            <div class="color product_details">
-                <div class="color">
-                    <label for="color">Color</label>
-                    <div class="select_outer">
-                    <select name="size" id="size">
-                        <option value="volvo">Black</option>
-                        <option value="saab">white</option>
-                        <option value="opel">Green</option>
-                    </select>
-                </div>
-                </div>
-            </div>
-            </div>
-                
-            <div class="p_detail">
-                <div class="size product_details">
-                <div class="select_outer">
-            <select name="size" id="size">
-                <option value="volvo">S</option>
-                <option value="saab">
-                M
-                </option>
-                <option value="opel">L</option>
-            </select>
-        </div>
-        </div>
-        <div class="color product_details">
-            
-            <div class="color">
-                <div class="select_outer">
-                <select name="size" id="size">
-                    <option value="volvo">Color</option>
-                    <option value="saab">white</option>
-                    <option value="opel">Green</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-    </div>
-            </div>
-            
-        </div>
-    
-    </div>
-</div>
-<div class="box most_popular " onclick="toggleBox(2)" data-price="18.00 USD">
-    
-<div class="plan_type">
-<span>MOST POPULAR</span>
-</div>
-    <div class="cart_box">
-    
-        <div class="head">
-            <div class="left_side">
-                  <input type="radio" id="html" name="fav_language" value="HTML" class="radio_btn">
-                <div> 
-                <p>2 Unit<span>20% Off</span></p>
-                <!-- <span>Standard Price</span> -->
-            </div>
-            </div>
-            <div class="right_side">
-                <p>$18.00 USD</p>
-                <span>$24.00 USD </span>
-            </div>
-        </div>
-        <div class="body hidden-content">
-            <div >
-            <div class="p_detail">
-            <div class="size product_details">
-                
-                <label for="size">Size</label>
-                <div class="select_outer">
-                    <select name="size" id="size">
-                        <option value="volvo">S</option>
-                        <option value="saab">
-                            M
-                        </option>
-                        <option value="opel">L</option>
-                        </select>
+                    <div class="right_side">
+                        <p>$10.00 USD</p>
+                        <span>$24.00 USD </span>
                     </div>
-            </div>
-            <div class="color product_details">
-                <div class="color">
-                    <label for="color">Color</label>
-                    <div class="select_outer">
-                    <select name="size" id="size">
-                        <option value="volvo">Black</option>
-                        <option value="saab">white</option>
-                        <option value="opel">Green</option>
-                    </select>
                 </div>
-                </div>
-            </div>
-            </div>
-                
-            <div class="p_detail">
-                <div class="size product_details">
-                <div class="select_outer">
-            <select name="size" id="size">
-                <option value="volvo">S</option>
-                <option value="saab">
-                M
-                </option>
-                <option value="opel">L</option>
-            </select>
-        </div>
-        </div>
-        <div class="color product_details">
-            
-            <div class="color">
-                <div class="select_outer">
-                <select name="size" id="size">
-                    <option value="volvo">Color</option>
-                    <option value="saab">white</option>
-                    <option value="opel">Green</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-    </div>
-            </div>
-            
-        </div>
-    
-    </div>
-</div>
-<div class="box" onclick="toggleBox(3)" data-price="24.00 USD">
-    <div class="cart_box">
-        <div class="head">
-            <div class="left_side">
-                  <input type="radio" id="html" name="fav_language" value="HTML" class="radio_btn">
-                <div> 
-                <p>3 Unit<span>30% Off</span></p>
-                
-            </div>
-            </div>
-            <div class="right_side">
-                <p>$24.00 USD</p>
-                <span>$24.00 USD </span>
-            </div>
-        </div>
-        <div class="body hidden-content">
-            <div >
-            <div class="p_detail">
-            <div class="size product_details">
-                
-                <label for="size">Size</label>
-                <div class="select_outer">
-                    <select name="size" id="size">
-                        <option value="volvo">S</option>
-                        <option value="saab">
-                            M
-                        </option>
-                        <option value="opel">L</option>
-                        </select>
+                <div class="body hidden-content">
+                    <div>
+                        <div class="p_detail">
+                            <span>#1</span>
+                            <div class="size product_details">
+
+                                <label for="size">Size</label>
+                                <div class="select_outer">
+                                    <select name="size" id="size">
+                                        <option value="s">S</option>
+                                        <option value="m">
+                                            M
+                                        </option>
+                                        <option value="l">L</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="color product_details">
+                                <div class="color">
+                                    <label for="color">Color</label>
+                                    <div class="select_outer">
+                                        <select name="size" id="size">
+                                            <option value="black">Black</option>
+                                            <option value="white">white</option>
+                                            <option value="green">Green</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p_detail">
+                            <span>#2</span>
+                            <div class="size product_details">
+                                <div class="select_outer">
+                                    <select name="size" id="size">
+                                        <option value="s">S</option>
+                                        <option value="m">
+                                            M
+                                        </option>
+                                        <option value="l">L</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="color product_details">
+
+                                <div class="color">
+                                    <div class="select_outer">
+                                        <select name="size" id="size">
+                                            <option value="color">Color</option>
+                                            <option value="white">white</option>
+                                            <option value="green">Green</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-            </div>
-            <div class="color product_details">
-                <div class="color">
-                    <label for="color">Color</label>
-                    <div class="select_outer">
-                    <select name="size" id="size">
-                        <option value="volvo">Black</option>
-                        <option value="saab">white</option>
-                        <option value="opel">Green</option>
-                    </select>
+
                 </div>
+
+            </div>
+        </div>
+        <div class="box most_popular " onclick="toggleBox(2)" data-price="18.00 USD">
+
+            <div class="plan_type">
+                <span>MOST POPULAR</span>
+            </div>
+            <div class="cart_box">
+
+                <div class="head radio">
+                    <div class="left_side box-1">
+                          <input type="radio" id="html" name="fav_language" value="HTML" class="radio_btn">
+                        <span class="check-mark"></span>
+                        <div class="category
+                        ">
+                            <p>2 Unit<span>20% Off</span></p>
+                            <!-- <span>Standard Price</span> -->
+                        </div>
+                    </div>
+                    <div class="right_side">
+                        <p>$18.00 USD</p>
+                        <span>$24.00 USD </span>
+                    </div>
+                </div>
+                <div class="body hidden-content">
+                    <div>
+                        <div class="p_detail">
+                            <span>#1</span>
+                            <div class="size product_details">
+
+                                <label for="size">Size</label>
+                                <div class="select_outer">
+                                    <select name="size" id="size">
+                                        <option value="s">S</option>
+                                        <option value="m">
+                                            M
+                                        </option>
+                                        <option value="l">L</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="color product_details">
+                                <div class="color">
+                                    <label for="color">Color</label>
+                                    <div class="select_outer">
+                                        <select name="size" id="size">
+                                            <option value="b">Black</option>
+                                            <option value="w">white</option>
+                                            <option value="g">Green</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p_detail">
+                            <span>#2</span>
+                            <div class="size product_details">
+                                <div class="select_outer">
+                                    <select name="size" id="size">
+                                        <option value="s">S</option>
+                                        <option value="m">
+                                            M
+                                        </option>
+                                        <option value="l">L</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="color product_details">
+
+                                <div class="color">
+                                    <div class="select_outer">
+                                        <select name="size" id="size">
+                                            <option value="color">Color</option>
+                                            <option value="white">white</option>
+                                            <option value="green">Green</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="box" onclick="toggleBox(3)" data-price="24.00 USD">
+            <div class="cart_box">
+                <div class="head radio">
+                    <div class="left_side box-1">
+                          <input type="radio" id="html" name="fav_language" value="HTML" class="radio_btn">
+                        <span class="check-mark"></span>
+                        <div class="category">
+                            <p>3 Unit<span>30% Off</span></p>
+
+                        </div>
+                    </div>
+                    <div class="right_side">
+                        <p>$24.00 USD</p>
+                        <span>$24.00 USD </span>
+                    </div>
+                </div>
+                <div class="body hidden-content">
+                    <div>
+                        <div class="p_detail">
+                            <span>#1</span>
+                            <div class="size product_details">
+
+                                <label for="size">Size</label>
+                                <div class="select_outer">
+                                    <select name="size" id="size">
+                                        <option value="s">S</option>
+                                        <option value="m">
+                                            M
+                                        </option>
+                                        <option value="l">L</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="color product_details">
+                                <div class="color">
+                                    <label for="color">Color</label>
+                                    <div class="select_outer">
+                                        <select name="size" id="size">
+                                            <option value="black">Black</option>
+                                            <option value="white">white</option>
+                                            <option value="green">Green</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p_detail">
+                            <span>#2</span>
+                            <div class="size product_details">
+                                <div class="select_outer">
+                                    <select name="size" id="size">
+                                        <option value="s">S</option>
+                                        <option value="m">
+                                            M
+                                        </option>
+                                        <option value="l">L</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="color product_details">
+
+                                <div class="color">
+                                    <div class="select_outer">
+                                        <select name="size" id="size">
+                                            <option value="color">Color</option>
+                                            <option value="white">white</option>
+                                            <option value="green">Green</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="bottom_text">
+            <div class="bottom_left_side">
+
+                <div class="delivery_text">
+                    <a href="#">Free Delivery</a>
+
                 </div>
             </div>
-            </div>
-                
-            <div class="p_detail">
-                <div class="size product_details">
-                <div class="select_outer">
-            <select name="size" id="size">
-                <option value="volvo">S</option>
-                <option value="saab">
-                M
-                </option>
-                <option value="opel">L</option>
-            </select>
-        </div>
-        </div>
-        <div class="color product_details">
-            
-            <div class="color">
-                <div class="select_outer">
-                <select name="size" id="size">
-                    <option value="volvo">Color</option>
-                    <option value="saab">white</option>
-                    <option value="opel">Green</option>
-                    </select>
-                </div>
+            <div class="right_side total_amount">
+                <!-- <p id="price">Total : $18.00 USD</p> -->
+                <div id="price">Total: 0</div>
+
             </div>
         </div>
-    </div>
-            </div>
-            
+        <div class="add_cart_btn">
+            <a href="#"> <i class="fas fa-plus"></i>Add to Cart</a>
         </div>
-    
+        <p class="spons">@ Powered by Pumper</p>
+     </form>
     </div>
-</div>
-<div class="bottom_text">
-    <div class="bottom_left_side">
-    
-        <div class="delivery_text"> 
-        <a href="#">Free Delivery</a>
-        
-    </div>
-    </div>
-    <div class="right_side total_amount">
-        <!-- <p id="price">Total : $18.00 USD</p> -->
-        <div id="price">Total: 0</div>
-    
-    </div>
-</div>
-<div class="add_cart_btn">
-    <a href="#"> <i class="fas fa-plus"></i>Add to Cart</a>
-</div>
-<p class="spons">@ Powered by Pumper</p>
-</div>
-<script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
