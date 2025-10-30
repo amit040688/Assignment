@@ -8,7 +8,7 @@ function toggleBox(selectedIndex) {
     boxes.forEach((box, index) => {
         let price = box.getAttribute('data-price'); // Get price from data attribute
 
-        if (index + 1 === selectedIndex) {
+        if (index + 1 === selectedIndex) { 
             box.classList.add('active');
             contents[index].style.display = "block";
             radios[index].checked = true;
