@@ -9,7 +9,7 @@ background-color: #000000;
 font-family: "Inter", serif;
 }
 .container {
-max-width: 452px;
+max-width: 462px;
 background: #ffffff;
 justify-content: center;
 margin: 20px auto;
@@ -17,8 +17,9 @@ height: auto;
 padding: 40px;
 }
 .box {
-width: 100%;
-margin-top: 30px;
+width: 89.4%;
+    margin: auto;
+    margin-top: 30px;
 }
 .box.active {
 border: 3px solid #ff6b82;
@@ -91,7 +92,7 @@ gap: 5px;
     display: block;
     border-radius: 50%;
     position: absolute;
-    top: 1.4px;
+        top: 2.4px;
     left: 2.4px;
 }
 .box-1 {
